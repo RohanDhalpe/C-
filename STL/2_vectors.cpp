@@ -32,3 +32,49 @@ printVector(p2);
 
 return 0;
 }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include<bits/stdc++.h>
+using namespace std;
+
+  
+int main(){
+     vector<vector<int>> p;
+     
+vector<int>p1;
+p1.push_back(5);
+p1.push_back(10);
+
+vector<int>p2; 
+p2.push_back(15);
+p2.push_back(20);
+
+p.push_back(p1);
+p.push_back(p2);
+
+for(auto vctr:p){
+     for(auto it:vctr){
+          cout<<it<<" ";
+     }cout<<endl;
+}
+//printVector(p);
+
+
+
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
