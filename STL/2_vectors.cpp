@@ -24,6 +24,7 @@ int main(){
 /* //////////////////////////////////////////////////*/
 p.push_back(5);
 p.push_back(10);
+p.emplace_back(20); // emplace_back(20)  takes smaller time than push_back() 
 printVector(p);
 vector<int>p2=p; 
 p2.push_back(15);
